@@ -3,7 +3,6 @@ public class Serie extends Contenido{
     // Atributo
     private int temporadas;
 
-
     // Constructor
     public Serie (String titulo, int duracion, int temporadas) {
         super(titulo, duracion);
@@ -14,7 +13,7 @@ public class Serie extends Contenido{
     @Override
     void mostrarInfo() {
         System.out.println(
-            "Titulo: " + titulo +
+                     "Titulo:" + titulo +
           "\n   > Duración: " + duracion + " minutos." +
           "\n   > Temporadas: " + temporadas
         );

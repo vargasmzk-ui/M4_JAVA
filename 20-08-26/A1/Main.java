@@ -1,18 +1,16 @@
 public class Main {
-    public static void main(String[] args) {
-        Pelicula p = new Pelicula("SpiderMan: Brand New Day", 145, "Destin Daniel Cretton");
-        Serie s = new Serie("The Big Bang Theory", 22, 12);
+        public static void main(String[] args) {
+        Pelicula p = new Pelicula("Coco antes de Chanel (Coco avant Chanel, 2009)", 110, "Caroline Benjo, Carole Scotta y Philippe Carcassonne.");
+        Serie s = new Serie("Oh My Venus (conocida en español como El peso del amor)", 70, 1);
 
         System.out.println("=".repeat(60));
-        System.out.println("Pelicula de esteno");
+        System.out.println("PELICULA DE ESTRENO");
         System.out.println("=".repeat(60));
         p.mostrarInfo();
         System.out.println("=".repeat(60));
-        System.out.println("Serie favorita");
+        System.out.println("SERIE FAVORITA");
         System.out.println("=".repeat(60));
         s.mostrarInfo();
         System.out.println("=".repeat(60));
-
-
     }
 }
