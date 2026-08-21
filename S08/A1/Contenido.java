@@ -12,9 +12,7 @@ public class Contenido {
     }
 
     void mostrarInfo() {
-         System.out.println(
-            "> Titulo: " + titulo +
-          "\n> Duración: " + duracion + " minutos."
+        System.out.println(". >Titulo: " + titulo + "\n> Duración: " + duracion + " minutos."
         );
     }
 }
